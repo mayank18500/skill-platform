@@ -1,9 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { User } from '../types';
 import { DatabaseService } from '../services/database';
-import { nanoid } from 'nanoid'; // Added for mock user ID creation
-// Removed: import { supabase } from '../supabaseClient';
-
+import { nanoid } from 'nanoid'; 
 interface AuthContextType {
 // ... (interface remains the same)
 }

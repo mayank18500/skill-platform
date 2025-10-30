@@ -1,5 +1,5 @@
-const mongoose = require("mongoose");
-const initData = require("./data.js");
+import mongoose from "mongoose";
+import initData from "./initData.js";
 const User = require("../models/user.js");
 
 main()
